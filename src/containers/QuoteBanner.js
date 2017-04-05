@@ -1,8 +1,8 @@
 // Libs
 import React, { Component } from 'react';
 // Components
-import Referral from './Referral.js';
-import quotes from './Referral.js';
+import Referral from '../components/Referral.js';
+import quotes from '../components/Referral.js';
 
 const renderReferrals = (referrals, length) => {
 	referrals.map((referral) => {
