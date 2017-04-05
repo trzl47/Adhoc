@@ -6,10 +6,10 @@ const Header = () => {
 		return (
 			<header>
 			<nav>
-				<div class="container-fluid" role="presentation">
-					<img class="navbar-brand collapse navbar-collapse" src={require("./assets/logo.png")} alt="Adhoc logo"><a href="#"></a></img>
-					<ul class="nav navbar-nav navbar-right" role="presentation">
-						<li class="active"><a href="#">About us</a></li>
+				<div className="container-fluid" role="presentation">
+					<img className="navbar-brand collapse navbar-collapse" src={require("./assets/logo.png")} alt="Adhoc logo"><a href="#"></a></img>
+					<ul className="nav navbar-nav navbar-right" role="presentation">
+						<li className="active"><a href="#">About us</a></li>
 						<li><a href="#">Our team</a></li>
 						<li><a href="#">Contact us</a></li>
 					</ul>
