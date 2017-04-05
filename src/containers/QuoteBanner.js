@@ -1,11 +1,11 @@
 // Libs
 import React, { Component } from 'react';
 // Components
-import Referral from '../components/Referral.js';
-import quotes from '../components/Referral.js';
+import Referral from '../components/QuoteBanner/Referral.js';
+import quotes from '../components/QuoteBanner/quotes.js';
 
 const renderReferrals = (referrals, length) => {
-	referrals.map((referral) => {
+	const referralquotes = referrals.map((referral) => {
 		return (
 			<Referral
 				quote={referral.quote}
@@ -14,9 +14,11 @@ const renderReferrals = (referrals, length) => {
 				key={referral.id} />
 		)
 	});
+
+	return referralquotes;
 };
 
-class Jumbotron extends Component {
+class QuoteBanner extends Component {
 	render() {
 		const referralContent = quotes.Home;
 		return(
@@ -29,4 +31,4 @@ class Jumbotron extends Component {
 	}
 }
 
-export default Jumbotron;
+export default QuoteBanner;

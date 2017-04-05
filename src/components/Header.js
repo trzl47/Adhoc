@@ -5,9 +5,9 @@ import React from 'react';
 const Header = () => {
 		return (
 			<header>
-			<nav>
+			<nav className="navbar navbar-default navbar-fixed-top">
 				<div className="container-fluid" role="presentation">
-					<img className="navbar-brand collapse navbar-collapse" src={require("./assets/logo.png")} alt="Adhoc logo"><a href="#"></a></img>
+					<a href="#"><img className="navbar-brand collapse navbar-collapse" src={require("./assets/logo.png")} alt="Adhoc logo" /></a>
 					<ul className="nav navbar-nav navbar-right" role="presentation">
 						<li className="active"><a href="#">About us</a></li>
 						<li><a href="#">Our team</a></li>

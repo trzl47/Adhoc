@@ -2,7 +2,7 @@
 import { render } from 'react-dom';
 
 // CSS
-import './boltnetwork.css';
+import './styles/adhoc.css';
 // Routes
 import routes from './router';
 

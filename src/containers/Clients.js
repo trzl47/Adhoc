@@ -1,8 +1,8 @@
 // Libs
 import React, { Component } from 'react';
 // Components
-import Client from '../components/Client.js';
-import currentclients from '../components/currentclients.js';
+import Client from '../components/Clients/Client.js';
+import currentclients from '../components/Clients/currentclients.js';
 
 const renderClients = (clients, length) => {
 	const clientele = clients.map((client) => {
