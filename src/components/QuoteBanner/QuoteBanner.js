@@ -1,18 +1,32 @@
 // Libs
 import React, { Component } from 'react';
 // Components
-import Header from '../components/Header.js';
-import Main from '../components/Main.js';
+import Referral from './Referral.js';
+import quotes from './Referral.js';
 
-export default class Jumbotron extends Component {
+const renderReferrals = (referrals, length) => {
+	referrals.map((referral) => {
+		return (
+			<Referral
+				quote={referral.quote}
+				author={referral.author}
+				client={referral.client}
+				key={referral.id} />
+		)
+	});
+};
+
+class Jumbotron extends Component {
 	render() {
+		const referralContent = quotes.Home;
 		return(
-				<div className='jumbotron'>
+				<div className='quotebanner'>
 					<div className='container'>
-						<Header />
-						<Main />
+						{ renderReferrals(referralContent, referralContent.length) }
 					</div>
 				</div>
 		);
 	}
 }
+
+export default Jumbotron;
