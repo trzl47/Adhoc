@@ -1,0 +1,13 @@
+version: '3'
+services:
+  adhoc-web:
+    build: ./services/web/
+    container_name: adhoc-web
+    restart: unless-stopped
+    ports:
+      - '3000:3000' # expose ports - HOST:CONTAINER
+    volumes:
+      - ./services/web:/usr/src/app
+      - /usr/src/app/node_modules
+    environment:
+      - NODE_ENV=development
