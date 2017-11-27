@@ -3,7 +3,7 @@ services:
   adhoc-web:
     build: ./services/web/
     container_name: adhoc-web
-      restart: unless-stopped
+    restart: unless-stopped
     ports:
       - '3000:3000' # expose ports - HOST:CONTAINER
     volumes:

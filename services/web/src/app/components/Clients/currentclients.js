@@ -1,22 +1,22 @@
 let count = 0;
 const CurrentClients = {
-  "Home":[
-    {
+	'Home':[
+		{
 			name: 'Boxx',
-			img: require('./assets/boxx.png'),
+			img: require('../../../static/img/boxx.png'),
 			id: count++
-    },
+		},
 		{
 			name: 'Element Design',
-			img: require('./assets/element-design.png'),
+			img: require('../../../static/img/element-design.png'),
 			id: count++
-    },
+		},
 		{
 			name: 'Quantum',
-			img: require('./assets/quantum.png'),
+			img: require('../../../static/img/quantum.png'),
 			id: count++
-    },
-  ],
+		},
+	],
 };
 
 export default CurrentClients;

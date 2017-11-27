@@ -77,7 +77,7 @@ img {
 .jumbotron {
   height: 43.5rem;
   margin-top: 3.125rem;
-  background-image: url("./jumbotron.png");
+  background-image: url("../img/jumbotron.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

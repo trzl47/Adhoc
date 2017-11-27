@@ -7,16 +7,16 @@ const Header = () => {
 			<header>
 			<nav className="navbar navbar-default navbar-fixed-top">
 				<div className="container-fluid" role="presentation">
-					<a href="#"><img className="navbar-brand collapse navbar-collapse" src={require("./assets/logo.png")} alt="Adhoc logo" /></a>
+					<a href='adhoc.tbrownkcdev.com'><img className="navbar-brand collapse navbar-collapse" src={require('../../static/img/logo.png')} alt="Adhoc logo" /></a>
 					<ul className="nav navbar-nav navbar-right" role="presentation">
-						<li className="active"><a href="#">About us</a></li>
-						<li><a href="#">Our team</a></li>
-						<li><a href="#">Contact us</a></li>
+						<li className="active"><a href='adhoc.tbrownkcdev.com'>About us</a></li>
+						<li><a href='adhoc.tbrownkcdev.com'>Our team</a></li>
+						<li><a href='adhoc.tbrownkcdev.com'>Contact us</a></li>
 					</ul>
 				</div>
 			</nav>
 			</header>
 		);
-	}
+	};
 
 export default Header;

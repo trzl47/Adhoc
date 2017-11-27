@@ -1,7 +1,7 @@
 {
 	"name": "adhoc",
-	"version": "1.0",
-	"description": "",
+	"version": "1.0.0",
+	"description": "website",
 	"main": "index.js",
   "scripts": {
     "start": "PORT=3000 react-scripts start",

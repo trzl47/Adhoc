@@ -1,31 +1,31 @@
 let count = 0;
 const TeamMembers = {
-  "Home":[
-    {
+	'Home':[
+		{
 			name: 'Brian Murphy',
 			title: 'CEO',
-			img: require('./assets/brian.png'),
+			img: require('../../../static/img/brian.png'),
 			id: count++
-    },
+		},
 		{
 			name: 'Andy Cox',
 			title: 'Co-Founder',
-			img: require('./assets/andy.png'),
+			img: require('../../../static/img/andy.png'),
 			id: count++
-    },
+		},
 		{
 			name: 'Angela Woronick',
 			title: 'CFO',
-			img: require('./assets/angela.png'),
+			img: require('../../../static/img/angela.png'),
 			id: count++
-    },
+		},
 		{
 			name: 'Amie Shadlu',
 			title: 'Angel Investor',
-			img: require('./assets/amie.png'),
+			img: require('../../../static/img/amie.png'),
 			id: count++
-    },
-  ],
+		},
+	],
 };
 
 export default TeamMembers;
