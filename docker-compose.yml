@@ -1,8 +1,8 @@
 version: '3'
 services:
-  # main-web:
+  adhoc-web:
     build: ./services/web/
-    # container_name: main
+    container_name: adhoc-web
       restart: unless-stopped
     ports:
       - '3000:3000' # expose ports - HOST:CONTAINER
