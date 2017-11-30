@@ -13,7 +13,7 @@ const renderClients = (clients, length) => {
 					img={client.img}
 					name={client.name} />
 			</div>
-		)
+		);
 	});
 	const chunkMembers = (arr, size) => {
 		let rows = [];
@@ -25,13 +25,14 @@ const renderClients = (clients, length) => {
 	const renderRows = () => {
 		return (
 			chunkMembers(clientele, 3).map((row) => {
-				return (
-					<div className="row">
+			let count = 0;
+			return (
+					<div className="row" key={count++}>
 						{ row }
 					</div>
-				)
+				);
 			})
-		)
+		);
 	};
 	return (
 		renderRows()

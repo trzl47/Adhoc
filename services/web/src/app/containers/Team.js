@@ -14,7 +14,7 @@ const renderTeam = (members, length) => {
 					img={member.img}
 					name={member.name} />
 			</div>
-		)
+		);
 	});
 	const chunkMembers = (arr, size) => {
 		let rows = [];
@@ -26,13 +26,14 @@ const renderTeam = (members, length) => {
 	const renderRows = () => {
 		return (
 			chunkMembers(team, 4).map((row) => {
+				let count = 0;
 				return (
-					<div className="row">
+					<div className="row" key={count++}>
 						{ row }
 					</div>
-				)
+				);
 			})
-		)
+		);
 	};
 	return (
 		renderRows()

@@ -1,15 +1,15 @@
 version: '3'
 services:
-  # CHANGE-web:
-    # image: trzl/CHANGE-web
-    # container_name: CHANGE-web
+  web:
+    # image: trzl/portfolio:adhoc-web_v1
+    container_name: adhoc-web
     restart: unless-stopped
     expose:
       - "80"
       - "443"
     environment:
-      # VIRTUAL_HOST: CHANGE.tbrownkcdev.com
-      # LETSENCRYPT_HOST: CHANGE.tbrownkcdev.com
+      VIRTUAL_HOST: adhoc.tbrownkcdev.com
+      LETSENCRYPT_HOST: adhoc.tbrownkcdev.com
       LETSENCRYPT_EMAIL: brownty47@gmail.com
 networks:
   default:
