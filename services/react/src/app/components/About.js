@@ -9,7 +9,7 @@ const About = () => {
 	return (
 		<section className='about'>
 			<HeaderLine header={'Why Adhoc?'} />
-			<div className='why-images'>
+			<div className='about-images'>
 				<div className="image-container" role="presentation">
 					<img src={require('../../static/img/experienced.png')} alt="We are experienced" />
 				</div>

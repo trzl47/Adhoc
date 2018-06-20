@@ -1,5 +1,14 @@
 /* Clients */
-
 .clients {
-  margin-top: 5.25rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  /* margin-top: 5.25rem; */
+}
+@media only screen and (min-width: 768px) {
+	.clients {
+		flex-direction: row;
+		justify-content: space-around;
+	}
 }

@@ -4,8 +4,10 @@ import React from 'react';
 
 const Client = props => {
 		return (
-			<img src={props.img} alt={props.name} role="presentation" />
+			<div className="image-container">
+				<img src={props.img} alt={props.name} role="presentation" />
+			</div>
 		);
-	}
+	};
 
 export default Client;

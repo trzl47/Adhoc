@@ -16,8 +16,8 @@ export default class Home extends Component {
 				<Jumbotron />
 				<QuoteBanner />
 				<About />
-				{/* <Team /> */}
-				{/* <Clients /> */}
+				<Team />
+				<Clients />
 			</div>
 		);
 	}
