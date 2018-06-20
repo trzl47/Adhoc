@@ -4,6 +4,8 @@ import React, { Component } from 'react';
 import Client from '../components/Client';
 import currentclients from '../../data/currentclients';
 import HeaderLine from '../components/HeaderLine.js';
+// css
+import '../../static/css/clients.css';
 
 	const clientele = currentclients.Home.map((client) => {
 		return (
@@ -18,7 +20,9 @@ class Clients extends Component {
 		return(
 			<section className="clients">
 				<HeaderLine header={'Current Clients'} />
-				{ clientele }
+				<div className='client-images'>
+					{ clientele }
+				</div>
 			</section>
 		);
 	}

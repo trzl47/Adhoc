@@ -4,7 +4,7 @@ import React from 'react';
 
 const Client = props => {
 		return (
-			<div className="image-container">
+			<div className="client image-container">
 				<img src={props.img} alt={props.name} role="presentation" />
 			</div>
 		);
