@@ -1,0 +1,23 @@
+/* Referral */
+.quote {
+  padding-top: 4rem;
+  font-family: "Droid Serif", serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.3;
+  color: #4a4a4a;
+}
+
+.citation {
+  padding-top: .75rem;
+  padding-bottom: 4rem;
+  font-family: "Roboto", sans-serif;
+  font-size: .875rem;
+  line-height: 1.4;
+}
+
+@media only screen and (min-width: 768px) {
+  .quote {
+		padding-top: 7rem;
+  }
+}

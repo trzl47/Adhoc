@@ -1,8 +1,9 @@
 // Libs
 import React, { Component } from 'react';
 // Components
-import Client from '../components/Clients/Client.js';
-import currentclients from '../components/Clients/currentclients.js';
+import Client from '../components/Client';
+import currentclients from '../../data/currentclients';
+import HeaderLine from '../components/HeaderLine.js';
 
 const renderClients = (clients, length) => {
 	const clientele = clients.map((client) => {
@@ -46,7 +47,7 @@ class Clients extends Component {
 			<div className="container header-line clients">
 				<div className="row">
 					<div className="col-xs-12 header">
-						<h2>Current Clients</h2>
+						<HeaderLine header={'Current Clients'} />
 					</div>
 				</div>
 				{ renderClients(clientContent, clientContent.length) }

@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import RedirectWithStatus from './redirect-w-status.js';
-import router from './routes/router';
-// styles
-import './static/css/index.css';
+import router from '../routes/router';
 
 class App extends Component {
 	render() {

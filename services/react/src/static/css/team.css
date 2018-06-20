@@ -1,0 +1,25 @@
+/* Team */
+
+.team {
+  padding-top: 5.5rem;
+  padding-bottom: 7.25rem;
+  background-color: #4a4a4a;
+  color: white;
+}
+
+.team h2 {
+  margin-bottom: 3.375rem;
+}
+
+.member {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.line {
+  display: block;
+}
+
+.member strong {
+  padding-top: 2rem;
+}

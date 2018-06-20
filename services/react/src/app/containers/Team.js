@@ -1,8 +1,8 @@
 // Libs
 import React, { Component } from 'react';
 // Components
-import TeamMember from '../components/Team/TeamMember.js';
-import teammembers from '../components/Team/teammembers.js';
+import TeamMember from '../components/TeamMember';
+import teammembers from '../../data/teammembers';
 
 const renderTeam = (members, length) => {
 	const team = members.map((member) => {
