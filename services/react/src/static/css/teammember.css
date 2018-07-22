@@ -1,0 +1,12 @@
+.member {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.line {
+  display: block;
+}
+
+.member strong {
+  padding-top: 2rem;
+}

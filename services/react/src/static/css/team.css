@@ -1,0 +1,25 @@
+/* Team */
+
+.team {
+  padding-top: 5.5rem;
+  padding-bottom: 7.25rem;
+  background-color: #4a4a4a;
+  color: white;
+}
+
+.teammembers {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+@media only screen and (min-width: 768px) {
+	.teammembers {
+		flex-direction: row;
+		justify-content: space-around;
+	}
+}
+
+.team h2 {
+  margin-bottom: 3.375rem;
+}

@@ -1,0 +1,25 @@
+/* Component - HeaderLine */
+
+.header-line {
+  border-top: 1px solid #d4d5d6;
+	margin-bottom: 3rem;
+	padding: 0 15px;
+}
+
+.header-line .header {
+  text-align: center;
+}
+
+.header-line h2 {
+  position: relative;
+  top: -1.2rem;
+  display: inline;
+  background-color: #f8f8f8;
+  font-size: 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .header-line h2 {
+	padding: 0 20rem;
+  }
+}

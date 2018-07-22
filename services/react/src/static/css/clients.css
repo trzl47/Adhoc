@@ -1,0 +1,17 @@
+/* Clients */
+.clients {
+	padding: 5rem 0;
+}
+
+.client-images {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+@media only screen and (min-width: 768px) {
+	.client-images {
+		flex-direction: row;
+		justify-content: space-around;
+	}
+}
